@@ -62,6 +62,15 @@ body {
 
 .logo-img {
   margin-right: 16px;
+  border-radius: 50%;
+}
+
+.site-logo-footer {
+  color: #fff;
+}
+
+.site-logo-footer:active {
+  color: #fff;
 }
 
 
@@ -99,6 +108,17 @@ body {
 opacity: 0.6;
 }
 
+.site-nav-footer .site-nav-link {
+  color: #fff;
+}
+
+.site-nav-footer .site-nav-link:hover {
+  color: #DE2E54;
+}
+
+.site-nav-footer .site-nav-link:active {
+  color: #fff;
+}
 
 /* BUTTON */
 .button {
@@ -165,4 +185,19 @@ opacity: 0.6;
 
 .hero-img {
 
+}
+
+
+/* SITE - FOOTER */
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+  color: #fff;
+}
+
+.site-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
