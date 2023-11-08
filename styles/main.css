@@ -14,6 +14,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+*:focus {
+  outline: 2px dotted #DE2E54;
+  outline-offset: 2px;
+}
 
 /* CONTAINER */
 .container  {
@@ -32,20 +36,32 @@ body {
   padding-bottom: 24px;
 }
 
-.header-container {
+.site-header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.site-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #222;
+  font-size: 24px;
+  font-weight: 600;
+}
 
 .site-logo:hover {
-  opacity: 0.8;
+  color: #DE2E54;
   cursor: pointer;
 }
 
 .site-logo:active {
   opacity: 0.6;
+}
+
+.logo-img {
+  margin-right: 16px;
 }
 
 
@@ -55,6 +71,7 @@ body {
 
 .site-nav-list {
   display: flex;
+  align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -65,34 +82,48 @@ body {
 }
 
 .site-nav-link {
+  display: block;
   font-size: 14px;
   font-weight: 700;
-  line-height: 150%; /* 21px */
   letter-spacing: 2px;
   color: #222;
   text-transform: uppercase;
   text-decoration: none;
 }
 
+.site-nav-link:hover {
+  color: #DE2E54;
+}
+
+.site-nav-link:active {
+opacity: 0.6;
+}
+
+
 /* BUTTON */
 .button {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 10px 22px;
   justify-content: center;
+  border: 2px solid #DE2E54;
   border-radius: 8px;
+  color: #fff;
+  background-color: #DE2E54;
+  letter-spacing: 2px;
   align-items: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff;
-  background-color: #DE2E54;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .button:hover {
-  opacity: 0.8;
+  color:#DE2E54;
+  background-color: #fff;
 }
 
 .button:active {
+  background-color: #DE2E54;
+  color: #fff;
   opacity: 0.6;
 }
 
