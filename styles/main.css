@@ -147,11 +147,21 @@ opacity: 0.6;
   opacity: 0.6;
 }
 
-/* MAIN */
+.hero-button:hover {
+  border-color: transparent;
+  color: #fff;
+  background-color: rgb(222, 46, 84, 0.8);
+}
+
+.hero-button:active {
+  background-color: rgb(222, 46, 84, 0.6);
+  opacity: 1;
+}
+
+
 
 /* HERO */
 .hero {
-  padding-top: 30px;
   background-color: #0EB4C1;
 }
 
@@ -162,8 +172,9 @@ opacity: 0.6;
 }
 
 .hero-info {
-  max-width: 500px;
-  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 500px;
   color: #fff;
 
 }
@@ -178,13 +189,14 @@ opacity: 0.6;
 }
 
 .hero-text {
+  width: 440px;
   margin: 0;
   margin-bottom: 36px;
   font-size: 18px;
 }
 
 .hero-img {
-
+  align-self: flex-end;
 }
 
 
